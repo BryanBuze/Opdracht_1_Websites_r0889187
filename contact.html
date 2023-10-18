@@ -6,8 +6,10 @@
     <title>Home</title>
     <link rel="icon" href="img/computer.png">
     <link rel="stylesheet" href="CSS/stijl.css">
+    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
 </head>
 <body>
+    <nav class="flex-container">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="cv.html">CV</a></li>
@@ -15,6 +17,26 @@
         <li><a href="hobby.html">Hobby's</a></li>
         <li><a  class = "active"href="#contact">Contact</a></li>
     </ul>
-<p>contact</p>
+</nav>
+<form action="somepage.php" method ="get">
+    <div class="grid-container">
+        <div>
+            <input type="text" name="voornaam" id="voornaam" placeholder="Enter your name">
+        </div>
+        <div>
+            <input type="email" name="email" id="email" placeholder="Enter your e-mail">
+        </div>
+        <div id="item2">
+            <input type="text" name="subject" id="subject"  placeholder="Subject">
+        </div>
+        <div id="item3">
+            <input type="text" name="message" id="message" placeholder="message">
+        </div>
+        <div>
+            <input type="submit" value="Verzenden">
+        </div> 
+    </div>
+</form>
+
 </body>
 </html>
