@@ -18,8 +18,29 @@
         <li><a  class = "active"href="#contact">Contact</a></li>
     </ul>
 </nav>
-<form action="somepage.php" method ="get">
-    <div class="grid-container">
+
+<div class="flex-container">
+    <h1>CONTACT</h1>
+</div>
+<div><hr></div>
+<div class="grid-containerform">
+    <div>
+    <table id="entiteit" >
+        <tr>
+            <th>Locatie:</th>
+            <td>Campus Blaroin 800, 2300 Turnhout</td>
+        </tr>
+        <tr>
+            <th>e-mail:</th>
+            <td>r0889197@student.thomasmore.be</td>
+        </tr>
+        <tr>
+            <th>Gsm-nummer:</th>
+            <td>04 297 42 35 32</td>
+        </tr>
+    </table>
+   </div>
+    <form action="somepage.php" method ="get">
         <div>
             <input type="text" name="voornaam" id="voornaam" placeholder="Enter your name">
         </div>
@@ -30,13 +51,15 @@
             <input type="text" name="subject" id="subject"  placeholder="Subject">
         </div>
         <div id="item3">
-            <input type="text" name="message" id="message" placeholder="message">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
         </div>
         <div>
             <input type="submit" value="Verzenden">
         </div> 
-    </div>
-</form>
+    
+    </form>
+</div>
+</div>
 
 </body>
 </html>
